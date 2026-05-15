@@ -1,6 +1,6 @@
-🐍Relatório das eplicç~eos de cada atividade:
+ # 🐍Relatório das eplicaçõs de cada atividade:
 
-🚀Exercício 1 (Pares e Ímpares): Usei o laço for com a função range(101) para iterar de 0 a 100. Dentro do laço, apliquei uma estrutura condicional if/else junto com o operador de módulo % para verificar se o resto da divisão por 2 era zero (par) ou não (ímpar).
+ 🚀Exercício 1 (Pares e Ímpares): Usei o laço for com a função range(101) para iterar de 0 a 100. Dentro do laço, apliquei uma estrutura condicional if/else junto com o operador de módulo % para verificar se o resto da divisão por 2 era zero (par) ou não (ímpar).
 
 🚀Exercício 2 (Maior e Menor): Recebi os dados via input(), converti para float() e os armazenei em uma lista. Para evitar vários if/elif, utilizei as funções integradas max() e min(), que identificam os extremos de um conjunto de dados.
 
