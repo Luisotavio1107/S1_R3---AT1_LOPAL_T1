@@ -1,70 +1,23 @@
-Lógica de Programação com Python 🐍
-Este repositório contém a resolução de uma série de exercícios focados no desenvolvimento do raciocínio lógico e na aplicação de conceitos fundamentais de programação utilizando a linguagem Python.
+🐍Relatório das eplicç~eos de cada atividade:
 
-🎯 Resultados Esperados
-Resolução de Problemas: Aplicação de raciocínio lógico para solucionar desafios computacionais.
+🚀Exercício 1 (Pares e Ímpares): Usei o laço for com a função range(101) para iterar de 0 a 100. Dentro do laço, apliquei uma estrutura condicional if/else junto com o operador de módulo % para verificar se o resto da divisão por 2 era zero (par) ou não (ímpar).
 
-Algoritmos: Construção de fluxos passo a passo para a execução de tarefas específicas.
+🚀Exercício 2 (Maior e Menor): Recebi os dados via input(), converti para float() e os armazenei em uma lista. Para evitar vários if/elif, utilizei as funções integradas max() e min(), que identificam os extremos de um conjunto de dados.
 
-🛠️ Ferramentas Utilizadas
-Google Colab: Para testes rápidos e prototipagem em nuvem.
+⚙️Exercício 3 (Nome em Escada): Utilizei o laço for combinado com o conceito de slicing (fatiamento) de strings. Usei a função len() para definir o limite da repetição, fazendo com que o Python imprimisse fatias progressivas do nome a cada volta.
 
-Visual Studio Code (VS Code): Ambiente de desenvolvimento local.
+⚙️Exercício 4 (Fibonacci): Apliquei um laço for para repetir o cálculo do termo definido pelo input(). A lógica central foi a atribuição múltipla de variáveis (a, b = b, a + b), que permite atualizar os valores da sequência sem precisar de variáveis auxiliares temporárias.
 
-Git & GitHub: Controle de versão e hospedagem do código.
+⚙️Exercício 5 (Validação de Dados): Usei um laço while True (loop infinito) para garantir que o usuário continuasse digitando até acertar. Dentro dele, usei o if com operadores lógicos (como and e in) para validar se o nome, idade, salário e sexo estavam nos padrões. Quando tudo estava correto, usei o comando break para sair do laço.
 
-📝 Exercícios Desenvolvidos
-Abaixo, a lista de atividades implementadas no formato de script .py:
+🔨Exercício 6 (Número Primo): Além do for e do if, utilizei o operador % para testar divisões sucessivas. Criei uma variável contadora para registrar quantas vezes o número era divisível; se ao final do laço essa contagem fosse zero, o número era identificado como primo.
 
-Par ou Ímpar: Algoritmo que utiliza o laço for para listar números de 0 a 100.
+🔨Exercício 7 (Fatorial): Usei o laço for para realizar multiplicações acumuladas. Comecei com uma variável valendo 1 e, a cada iteração, usei o operador de atribuição composta (*=) para multiplicar o valor atual pelo próximo número da sequência.
 
-Maior e Menor: Script que lê três números e identifica os extremos.
+🐍Exercício 8 (Operações com Lista): Trabalhei com uma Lista [] pré-definida. Para extrair as informações, usei funções nativas como len() (tamanho), sum() (soma total) e a função sorted() para organizar os elementos em ordem crescente e decrescente (usando o parâmetro reverse=True).
 
-Nome em Escada: Impressão de um nome na vertical, adicionando uma letra por linha.
+🐍Exercício 9 (Dicionário): Construí uma estrutura de Dicionário {}, que organiza os dados através de pares de "chave: valor". Isso permite simular uma tabela onde cada informação pode ser recuperada pelo seu nome identificador em vez de apenas pela posição.
 
-Série de Fibonacci: Gerador da sequência até o n-ésimo termo definido pelo usuário.
+🐍Exercício 10 (Acesso com Senha): Utilizei o laço while com uma condição de comparação (tentativa != senha_correta). O programa repete o input() indefinidamente e só exibe a mensagem de sucesso e encerra a execução quando a condição do laço se torna falsa.
 
-Validação de Dados: Script que valida nome, idade, salário, sexo e estado civil com critérios específicos.
-
-Números Primos: Identificador de números primos utilizando o operador de resto (%).
-
-Fatorial: Cálculo de fatorial utilizando o laço for.
-
-Manipulação de Listas: Operações com a lista L = [5, 7, 2, 9, 4, 1, 3] (soma, ordenação, mín/máx).
-
-Dicionários: Representação de dados tabulares através de estruturas de dicionário.
-
-Controle de Acesso: Validação de senha numérica (676767) utilizando o laço while.
-
-Tabuada: Gerador de tabuada para números de 1 a 10.
-
-✅ Critérios de Avaliação Aplicados
-O projeto foi desenvolvido seguindo rigorosos padrões técnicos e comportamentais:
-
-💻 Capacidades Técnicas
-Sequência Lógica: Algoritmos estruturados de forma coerente e sem redundâncias.
-
-Boas Práticas: Scripts com início e fim bem definidos e nomes de variáveis descritivos.
-
-Operadores & Tipos: Uso correto de operadores aritméticos e manipulação adequada de diferentes tipos de dados (int, float, string, list, dict).
-
-Clean Code: Código organizado, devidamente indentado e seguindo uma convenção de nomenclatura única.
-
-Laços de Repetição: Aplicação correta de for e while conforme a necessidade do problema.
-
-🧠 Capacidades Socioemocionais
-Autogestão: Organização e cumprimento de prazos.
-
-Pensamento Analítico: Identificação de erros e proposta de soluções eficazes.
-
-Autonomia: Busca independente por recursos e proatividade na execução das tarefas.
-
-🚀 Como executar
-Clone o repositório:
-
-Bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Acesse a pasta do projeto e execute os scripts:
-
-Bash
-python nome_do_exercicio.py
+🐍Exercício 11 (Tabuada): Usei o input() para receber o número base e um laço for que vai de 1 a 10. Dentro do laço, realizei a operação aritmética de multiplicação e usei f-strings no print() para exibir o relatório da tabuada de forma organizada.
